@@ -6,33 +6,19 @@ const assignment = {};
 
 /
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-
-   // in an array of size n  
-    function sum(arr) {  
-        let sum = 0; // initialize sum  
+  
+        let sum = 0;   
+        for (let i = 0; i < arr0fnumbers.length; i++)  {
+            sum += arr0fnumbers[i];  
+        }
     
-        // Iterate through all elements  
-        // and add them to sum  
-        for (let i = 0; i < arr.length; i++)  
-            sum += arr[i];  
-    
-        return sum;  
-    }  
-    // Driver code 
-    let arr = [12, 3, 4, 15];
-    document.write("Sum of given array is " + sum(arr));
+        return sum;   
       
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
 */
- 
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-  unction countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
- function countEvenNumbers(arrayOfNumbers) {
     let count = 0;
     for (let i = 0; i < arrayOfNumbers.length; i++) {
         if (arrayOfNumbers[i] % 2 === 0) {

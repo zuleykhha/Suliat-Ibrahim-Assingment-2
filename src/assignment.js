@@ -4,31 +4,42 @@ const assignment = {};
 // ========================
 
 
-/**
- * Challenge - 1
- * 
- * Calculate and return the sum of the numbers in an array.
- * If you did Challenge - 1, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
- * @returns number the sum of the numbers
- */
+/
 function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
+
+   // in an array of size n  
+    function sum(arr) {  
+        let sum = 0; // initialize sum  
+    
+        // Iterate through all elements  
+        // and add them to sum  
+        for (let i = 0; i < arr.length; i++)  
+            sum += arr[i];  
+    
+        return sum;  
+    }  
+    // Driver code 
+    let arr = [12, 3, 4, 15];
+    document.write("Sum of given array is " + sum(arr));
+      
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
-/**
- * Challenge - 2
- * 
- * Count all even numbers within an array of numbers.
- * If you did Challenge - 2, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array containing even or non-even numbers
- * @returns number the count of even numbers
- */
+*/
+ 
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
+  unction countEvenNumbers(arrayOfNumbers) {
+    return arrayOfNumbers.length;
+ function countEvenNumbers(arrayOfNumbers) {
+    let count = 0;
+    for (let i = 0; i < arrayOfNumbers.length; i++) {
+        if (arrayOfNumbers[i] % 2 === 0) {
+            count++;
+        }
+    }
+    return count;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
 
